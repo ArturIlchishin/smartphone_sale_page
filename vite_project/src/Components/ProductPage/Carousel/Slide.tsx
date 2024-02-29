@@ -29,7 +29,7 @@ export const Slide = ({index, active, setActive}: ISlide ) => {
                 <h1 className={'tiny__container-header'}>Tiny Phone 4G</h1>
                 <p className={'tiny__container-desc'}>Small Size, huge Impact</p>
             </div>
-            <div className={'carousel__container'} style={{ backgroundImage: slides[index].background_image }}>
+            <div className={'carousel__container'} style={{ background: slides[index].background_image }}>
                 {/*{slides[index].title}*/}
             </div>
         </>
