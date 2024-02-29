@@ -1,7 +1,9 @@
-[
+import blueBanner from '../../../assets/img/product/blue_banner.png'
+
+export const slides = [
   {
     "id": "1",
-    "background_image": "url(\"public/blue_banner.png\")",
+    "background_image": blueBanner,
     "background": "rgb(145, 139, 228)"
   },
   {
