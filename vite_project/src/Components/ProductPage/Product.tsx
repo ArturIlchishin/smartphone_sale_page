@@ -3,7 +3,6 @@ import {Introducing} from "./Introducing";
 import {Shipping} from "./Shipping";
 import {Footer} from "./Footer";
 import {useState} from "react";
-import {NavigationComp} from "../NavigationComp/NavigationComp";
 
 export const Product = () => {
     const [modalActive, setModalActive] = useState<boolean>(false);
