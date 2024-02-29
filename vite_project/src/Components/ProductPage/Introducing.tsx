@@ -1,7 +1,7 @@
 import phones from '../../assets/img/product/phones.png';
 import './styles.css'
 
-export const Introducing = ({active}) => {
+export const Introducing = ({active}: boolean) => {
     return (
         <section className={`intro__container ${active ? 'hidden' : ''}`}>
             <div className={'intro__wrapper'}>

@@ -6,7 +6,7 @@ import UPS from '../../assets/img/product/UPS.png';
 import {useState} from "react";
 import './styles.css';
 
-export const Shipping = ({active}) => {
+export const Shipping = ({active}: boolean) => {
 
     const [deliveryActive, setDeliveryActive] = useState<boolean>(false);
     const [warrantyActive, setWarrantyActive] = useState<boolean>(false);

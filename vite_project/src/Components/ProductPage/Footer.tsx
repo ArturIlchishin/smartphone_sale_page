@@ -2,7 +2,7 @@ import logo from '../../assets/img/product/logo.png'
 import {useState} from "react";
 import './styles.css'
 
-export const Footer = ({activated}) => {
+export const Footer = ({activated}: boolean) => {
 
     const [active, setActive] = useState<boolean>(false)
 

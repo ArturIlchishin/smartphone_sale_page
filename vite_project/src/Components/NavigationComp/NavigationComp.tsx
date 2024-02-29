@@ -3,7 +3,12 @@ import logo from "../../assets/img/header/logo.png";
 import cross from "../../assets/img/header/cross.png";
 import './styles.css';
 
-export const NavigationComp = ({active, setActive}) => {
+interface INavComp {
+    active: boolean
+    setActive: (isActive: boolean) => void
+}
+
+export const NavigationComp = ({active, setActive}: INavComp) => {
 
     return (
         <>

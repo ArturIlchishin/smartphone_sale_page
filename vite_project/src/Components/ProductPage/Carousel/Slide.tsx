@@ -5,7 +5,13 @@ import {NavigationComp} from "../../NavigationComp/NavigationComp";
 import {RunningText} from "../RunningText";
 import '../styles.css'
 
-export const Slide = ({index, active, setActive}) => {
+interface ISlide {
+    index: number
+    active: boolean
+    setActive: (isActive: boolean) => void
+}
+
+export const Slide = ({index, active, setActive}: ISlide) => {
 
     return (
         <>

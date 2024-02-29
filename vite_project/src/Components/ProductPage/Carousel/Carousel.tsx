@@ -3,7 +3,12 @@ import {Slide} from "./Slide";
 import '../styles.css'
 import slides from './slides.json'
 
-export const Carousel = ({active, setActive}) => {
+interface ICarousel {
+    active: boolean
+    setActive: (isActive: boolean) => void
+}
+
+export const Carousel = ({active, setActive} : ICarousel) => {
     const [slide, setSlide] = useState<number>(0);
 
 
