@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'GothamBold';
+    src: local('GothamBold'),
+    url('../src/assets/fonts/GothamBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: local('GothamLight'),
+    url('../src/assets/fonts/GothamLight.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: local('GothamMedium'),
+    url('../src/assets/fonts/GothamMedium.ttf') format('truetype');
+    font-weight: 500;
+}

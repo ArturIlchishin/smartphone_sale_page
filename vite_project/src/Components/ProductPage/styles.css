@@ -1,0 +1,437 @@
+/*Running text starts here */
+
+.running__container {
+    overflow: hidden;
+    width: 390px;
+    height: 32px;
+    padding: 8px 0 8px 0;
+    font-family: GothamMedium;
+    background: rgb(255, 0, 138);
+}
+
+.running__wrapper {
+    animation: running-text 5s linear infinite;
+}
+
+.running__wrapper-text {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@keyframes running-text {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/*Running text ends here */
+
+/* ProductHead starts here */
+.product__head__container {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    height: 53px;
+    background: rgb(145, 139, 228);
+    padding: 14px 13px 14px 13px;
+    transition: 0.2s;
+}
+
+.product__head__menu {
+    transition: 0.2s;
+}
+
+.product__head__menu:hover, .product__head__menu:active {
+    transform: scale(130%);
+}
+
+.tiny__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 390px;
+    height: 84px;
+    background: rgb(145, 139, 228);
+    padding: 20px 13px 0 13px;
+    transition: 0.2s;
+}
+
+.tiny__container-header {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.tiny__container-desc {
+    color: rgb(223, 223, 223);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: left;
+    font-family: GothamLight;
+}
+/* ProductHead ends here */
+
+/*CAROUSEL starts here */
+
+.carousel__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 390px;
+    height: 516px;
+    transition: 0.2s;
+    background: blue;
+}
+
+.carousel__buttons__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translateY(-40px);
+}
+
+.carousel__buttons__items {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+}
+
+.carousel__button {
+    min-width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    background: whitesmoke; /* Цвет фона */
+    border-radius: 50%; /* Радиус скругления */
+    border: none;
+    transition: 0.2s;
+}
+.carousel__button:last-child {
+    margin-right: 0;
+}
+
+.carousel__button:hover, .carousel__button:active {
+    cursor: pointer;
+    transform: scale(140%);
+}
+/*CAROUSEL ends here */
+
+/* INTRODUCING starts here */
+
+
+.intro__wrapper {
+    padding: 20px 13px 20px 13px;
+}
+
+.intro__text {
+    margin-bottom: 10px;
+}
+
+.intro__text-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.intro__text-desc {
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(145, 139, 228);
+}
+
+.intro__img {
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.intro__img-pic {
+    max-width: 364px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+/* INTRODUCING ends here */
+
+/* SHIPPING starts here */
+.shipping__container {
+    min-width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.shipping__wrapper {
+    margin: 10px 13px 10px 13px;
+}
+
+.shipping__title-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.shipping__delivery {
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 246, 246);
+    padding: 10px 10px 10px 10px;
+    border-radius: 3%;
+    margin-bottom: 14px;
+}
+
+.shipping__delivery__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipping__delivery__title:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping__delivery__title-text {
+    color: rgb(255, 0, 138);
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-left: 25px;
+    background: url("../src/assets/img/product/car.png") no-repeat left;
+}
+
+.shipping_delivery__title-img {
+    width: 16px;
+    height: 10px;
+    transition: 0.2s;
+}
+
+.shipping__delivery__logos {
+    margin: 3.5px 0 3.5px 0;
+}
+
+.shipping__delivery__logos-img {
+ margin-right: 20px;
+}
+
+.shipping__delivery__text {
+    color: rgb(39, 39, 39);
+    font-size: 12px;
+    font-weight: 250;
+    line-height: 15px;
+    text-align: left;
+}
+
+.shipping__warranty {
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 246, 246);
+    padding: 10px 10px 10px 10px;
+    border-radius: 3%;
+    margin-bottom: 14px;
+}
+
+.shipping__warranty__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipping__warranty__title:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping__warranty__title-text {
+    color: rgb(255, 0, 138);
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: url("../src/assets/img/product/shield.png") no-repeat left;
+}
+
+.shipping__warranty__title-img {
+    width: 16px;
+    height: 10px;
+    transition: 0.2s;
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+.shipping__warranty__text {
+    margin-top: 7px;
+    color: rgb(39, 39, 39);
+    font-size: 12px;
+    font-weight: 250;
+    line-height: 15px;
+    text-align: left;
+}
+.shipping__warranty__text-letters:last-child {
+    margin-top: 7px;
+}
+
+.shipping__money {
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 246, 246);
+    padding: 10px 10px 10px 10px;
+    border-radius: 3%;
+    margin-bottom: 14px;
+}
+
+.shipping__money__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipping__money__title:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping__money__title-text {
+    color: rgb(255, 0, 138);
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: url("../src/assets/img/product/box.png") no-repeat left;
+}
+
+.shipping__money__title-img {
+    width: 16px;
+    height: 10px;
+    transition: 0.2s;
+}
+
+.shipping__money__text {
+    margin-top: 7px;
+    color: rgb(39, 39, 39);
+    font-size: 12px;
+    font-weight: 250;
+    line-height: 15px;
+    text-align: left;
+}
+.shipping__money__text-letters:last-child {
+    margin-top: 7px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/*FOOTER starts here */
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145, 139, 228);
+    padding: 20px 10px 20px 10px;
+}
+.footer__logo {
+    margin-bottom: 20px;
+}
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+}
+
+.footer__link {
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration-line: underline;
+    transition: 0.3s;
+}
+
+.footer__link:hover, .footer__link:active {
+    transform: scale(120%);
+}
+
+.footer__desc {
+    display: none;
+    margin-bottom: 8px;
+}
+
+.show {
+    display: block;
+}
+
+.footer__desc-text {
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    font-family: GothamLight;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer__button {
+    margin-bottom: 20px;
+}
+
+.footer__button-push {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 74px;
+    height: 22px;
+    padding: 6px 18px 6px 18px;
+    border: 0.68px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+    font-size: 7px;
+    font-weight: 400;
+    text-align: center;
+    background: rgb(145, 139, 228);
+    transition: 0.2s;
+}
+
+.footer__button-push:hover, .footer__button-push:active {
+    background: rgb(52, 60, 114);
+}
+
+.footer__copyright-text {
+    color: rgb(255, 255, 255);
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
