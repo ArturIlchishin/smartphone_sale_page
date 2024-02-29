@@ -1,4 +1,4 @@
-import slides from "./slides.js";
+import {slides} from "./slides.js";
 import logo from "../../../assets/img/product/logo.png";
 import menu from "../../../assets/img/product/menu.png";
 import {NavigationComp} from "../../NavigationComp/NavigationComp";
