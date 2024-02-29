@@ -5,7 +5,7 @@ import './styles.css';
 
 interface INavComp {
     active: boolean
-    setActive: (isActive: boolean) => void
+    setActive: (isActive: boolean) => void | any
 }
 
 export const NavigationComp = ({active, setActive}: INavComp) => {

@@ -8,10 +8,10 @@ import '../styles.css'
 interface ISlide {
     index: number
     active: boolean
-    setActive: (isActive: boolean) => void
+    setActive: (isActive: boolean) => void | any
 }
 
-export const Slide = ({index, active, setActive}: ISlide) => {
+export const Slide = ({index, active, setActive}: ISlide ) => {
 
     return (
         <>

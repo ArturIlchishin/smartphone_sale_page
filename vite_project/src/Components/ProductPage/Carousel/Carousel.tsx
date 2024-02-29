@@ -5,7 +5,7 @@ import slides from './slides.json'
 
 interface ICarousel {
     active: boolean
-    setActive: (isActive: boolean) => void
+    setActive: (isActive: boolean) => void | any
 }
 
 export const Carousel = ({active, setActive} : ICarousel) => {
