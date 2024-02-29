@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {Slide} from "./Slide";
 import '../styles.css'
-import {slides} from './slides.js'
+import {slides} from './slides'
 
 interface ICarousel {
     active: boolean

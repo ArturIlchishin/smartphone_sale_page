@@ -1,6 +1,11 @@
 import blueBanner from '../../../assets/img/product/blue_banner.png'
 
-export const slides = [
+interface ISlide {
+  id: string
+  background_image: string
+  background: string
+}
+export const slides: ISlide[] = [
   {
     "id": "1",
     "background_image": blueBanner,
