@@ -1,4 +1,7 @@
-import blueBanner from '../../../assets/img/product/blue_banner.png'
+import blueBanner from '../../../assets/img/product/blue_banner.png';
+import yellowBanner from '../../../assets/img/product/yellow_banner.png'
+import blackBanner from '../../../assets/img/product/black_banner.png'
+
 
 interface ISlide {
   id: string
@@ -13,12 +16,12 @@ export const slides: ISlide[] = [
   },
   {
     "id": "2",
-    "background_image": "url(\"public/yellow_banner.png\")",
+    "background_image": yellowBanner,
     "background": "rgb(244, 152, 148)"
   },
   {
     "id": "3",
-    "background_image": "url(\"public/black_banner.png\")",
+    "background_image": blackBanner,
     "background": "rgb(54, 54, 62)"
   }
 ]
