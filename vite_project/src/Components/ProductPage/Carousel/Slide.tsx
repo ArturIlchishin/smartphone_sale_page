@@ -30,7 +30,7 @@ export const Slide = ({index, active, setActive}: ISlide ) => {
                 <p className={'tiny__container-desc'}>Small Size, huge Impact</p>
             </div>
             <div className={'carousel__container'} style={{ backgroundImage: slides[index].background_image }}>
-                {slides[index].title}
+                {/*{slides[index].title}*/}
             </div>
         </>
     )
