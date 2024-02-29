@@ -11,9 +11,9 @@ export const Product = () => {
         <div className={'section__wrapper'}>
             <section className={`product__container`}>
                 <Carousel active={modalActive} setActive={setModalActive}/>
-                <Introducing active={modalActive} setActive={setModalActive}/>
-                <Shipping active={modalActive} setActive={setModalActive}/>
-                <Footer activated={modalActive} setActive={setModalActive}/>
+                <Introducing active={modalActive}/>
+                <Shipping active={modalActive}/>
+                <Footer activated={modalActive}/>
             </section>
         </div>
 
